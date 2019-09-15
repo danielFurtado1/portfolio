@@ -1,0 +1,20 @@
+.about-tittle {
+    text-align: center;
+}
+.about-wrapper {
+    padding-top: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.about-text {
+    max-width: 70%;
+    text-align: justify;
+}
+
+.icon-svg {
+    height: 32px;
+    width: 32px;
+}
+

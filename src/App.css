@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+}
+
+.grow-custom {
+  transition: all .25s ease-in-out;
+}
+
+.grow-custom:hover {
+  transform: scale(1.05);
+}
