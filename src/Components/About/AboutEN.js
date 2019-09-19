@@ -16,7 +16,7 @@ const AboutEN = () => {
                     Welcome to my page, fantastic to see you here!
                 </p>
                 <p>
-                    My name is Daniel, I am a Front-end Web Developer specializing on the awesome technology of ReactJS. 
+                    My name is Daniel, I am a Front-end Web Developer specializing in the awesome technology of ReactJS. 
                     It is being an awesome experience to develop the most diverse aplications, some of which you will see below.
                 </p>
                 <p>
