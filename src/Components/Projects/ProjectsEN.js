@@ -1,7 +1,12 @@
 import React from 'react'
 
+import './Projects.css'
+
+import gitIcon from '../../images/icons/roadmap-icons/github.svg'
 import thumbMonster from '../../images/thumbnails/monster-cards-thumbnail.png'
 import thumbRobo from '../../images/thumbnails/robo-cards-thumbnail.png'
+import thumbFaceRecog from '../../images/thumbnails/face-recognition-thumbnail.png'
+import thumbPortfolio from '../../images/thumbnails/portfolio-thumbnail.png'
 
 
 const ProjectsEN = () => {
@@ -18,23 +23,23 @@ const ProjectsEN = () => {
                             <div className="w-100 w-60-ns pl3-ns">
                                 <h1 className="f3 fw1 baskerville mt0 lh-title">Monster Cards</h1>
                                 <p className="f6 f5-l lh-copy">
-                                    text about monster cards
-                                    <br/>
-                                    text about monster cards
-                                    <br/>
-                                    text about monster cards
-                                    text about monster cards
-                                    <br/>
-                                    text about monster cards
-                                    <br/>
-                                    text about monster cards
-                                    text about monster cards
-                                    <br/>
-                                    text about monster cards
-                                    <br/>
-                                    text about monster cards
+                                    App that renders cards using
+                                    a users API combined with a
+                                    hash monster image generator API.
+                                    Created with React. Deployed using
+                                    Github Pages.
                                 </p>
-                                <p className="f6 lh-copy mv0">By Robin Darnell</p>
+                                <div className="buttons">
+                                    <a className="button" href="https://danielfurtado1.github.io/monster-cards/" rel="noopener noreferrer" target='_blank'>
+                                        <div className="white-dot"></div>
+                                        <span>Live</span>
+                                    </a>
+                                    <a className="button" href="https://github.com/danielFurtado1/monster-cards/" rel="noopener noreferrer" target='_blank'>
+                                        <div className="icon">
+                                            <img alt="git-icon" className="git-icon" src={gitIcon} /></div>
+                                        <span>Source</span>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -48,13 +53,22 @@ const ProjectsEN = () => {
                             <div className="w-100 w-60-ns pl3-ns">
                                 <h1 className="f3 fw1 baskerville mt0 lh-title">Robo Cards</h1>
                                 <p className="f6 f5-l lh-copy">
-                                    A warehouse is a commercial building for storage of goods.
-                                    Warehouses are used by manufacturers, importers, exporters,
-                                    wholesalers, transport businesses, customs, etc. They are
-                                    usually large plain buildings in industrial areas of cities,
-                                    towns and villages.
+                                    Responsive App that obtain a users data 
+                                    and convert them into robot cards. It uses 
+                                    Tachyons for the CSS design and the responsivity. 
+                                    Deployed with Netlify.
                                 </p>
-                                <p className="f6 lh-copy mv0">By Robin Darnell</p>
+                                <div className="buttons">
+                                    <a className="button" href="https://robo-cards.netlify.com/" rel="noopener noreferrer" target='_blank'>
+                                        <div className="white-dot"></div>
+                                        <span>Live</span>
+                                    </a>
+                                    <a className="button" href="https://github.com/danielFurtado1/robo-cards/" rel="noopener noreferrer" target='_blank'>
+                                        <div className="icon">
+                                            <img alt="git-icon" className="git-icon" src={gitIcon} /></div>
+                                        <span>Source</span>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -63,18 +77,60 @@ const ProjectsEN = () => {
                     <div className="db pv4 ph3 ph0-l no-underline black">
                         <div className="flex flex-column flex-row-ns">
                             <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-                                <img src="http://mrmrs.github.io/photos/whale.jpg" className="db" alt="" />
+                                <img src={thumbFaceRecog} className="db" alt="" />
                             </div>
                             <div className="w-100 w-60-ns pl3-ns">
-                                <h1 className="f3 fw1 baskerville mt0 lh-title">Projeto 3</h1>
+                                <h1 className="f3 fw1 baskerville mt0 lh-title">Face Recognition App</h1>
                                 <p className="f6 f5-l lh-copy">
-                                    Whale is the common name for a widely distributed and diverse
-                                    group of fully aquatic placental marine mammals. They are an
-                                    informal grouping within the infraorder Cetacea, usually
-                                    excluding dolphins and porpoises.
+                                    Responsive App deployed on Heroku which detects human faces in the received pictures.
+                                    Uses React, Clarifai API for the detection and Tachyons for the design and responsivity. 
+                                    It haves a user base, permissions and entry count for each user.
+                                    <br />
+                                    Try it out!
                                 </p>
-                                <p className="f6 lh-copy mv0">By Robin Darnell</p>
+                                <div className="buttons">
+                                    <a className="button" href="https://face--recognition-app.herokuapp.com/" rel="noopener noreferrer" target='_blank'>
+                                        <div className="white-dot"></div>
+                                        <span>Live</span>
+                                    </a>
+                                    <a className="button" href="https://github.com/danielFurtado1/face-recognition-app/" rel="noopener noreferrer" target='_blank'>
+                                        <div className="icon">
+                                            <img alt="git-icon" className="git-icon" src={gitIcon} /></div>
+                                        <span>Source</span>
+                                    </a>
+                                </div>
                             </div>
+                            
+                        </div>
+                    </div>
+                </article>
+                <article className="bb b--black-10 grow-custom">
+                    <div className="db pv4 ph3 ph0-l no-underline black">
+                        <div className="flex flex-column flex-row-ns">
+                            <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns">
+                                <img src={thumbPortfolio} className="db" alt="" />
+                            </div>
+                            <div className="w-100 w-60-ns pl3-ns">
+                                <h1 className="f3 fw1 baskerville mt0 lh-title">Personal Portfolio</h1>
+                                <p className="f6 f5-l lh-copy">
+                                    It is the site you're on now! Created with React, AWS (S3 and CloudFront) for deployment, 
+                                    HTTPS certification, Tachyons for the CSS and responsivity, and some more interesting things.
+                                    <br />
+                                    Don't forget to try the mobile responsivity!
+                                </p>
+                                <div className="buttons">
+                                    <a className="button" href="/" rel="noopener noreferrer" target='_blank'>
+                                        <div className="white-dot"></div>
+                                        <span>Live</span>
+                                    </a>
+                                    <a className="button" href="https://github.com/danielFurtado1/portfolio/" rel="noopener noreferrer" target='_blank'>
+                                        <div className="icon">
+                                            <img alt="git-icon" className="git-icon" src={gitIcon} /></div>
+                                        <span>Source</span>
+                                    </a>
+                                </div>
+                            </div>
+                            
                         </div>
                     </div>
                 </article>

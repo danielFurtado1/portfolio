@@ -1,0 +1,39 @@
+
+
+.buttons {
+    display: flex;
+	justify-content: center;
+	margin-top: auto;
+	padding: 1.8rem 1.6rem;
+}
+
+.button {
+    display: flex;
+	align-items: center;
+	font-size: 0.75rem;
+	text-decoration: none;
+    padding: .5rem 1rem;
+    margin: auto;
+	border-radius: 4px;
+	color: #fff;
+	background-color: black;
+}
+
+.icon {
+	text-align: center;
+    margin-right: 0.5rem;
+}
+
+.git-icon {
+    height: 16px;
+    width: 16px;
+}
+
+.white-dot {
+    height: 0.75rem;
+	width: 0.75rem;
+	border-radius: 50%;
+	background-color: #fff;
+	margin-right: 0.5rem;
+	opacity: 1;
+}

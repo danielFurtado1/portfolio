@@ -6,7 +6,7 @@ const NavigationPT = () => {
     return (
         <div>
             <header className="bg-white black-80 tc pv4 avenir">
-                <nav className="sticky bt bb tc mt2 navbar">
+                <nav className="sticky bt bb tc navbar">
                     <Link
                         className="nav-button f6 f5-l link hover-bg-light-gray dib pa3 ph5-l"
                         activeClass="active"
@@ -26,6 +26,16 @@ const NavigationPT = () => {
                         offset={-70}
                         duration={1000}
                     >Sobre
+                    </Link>
+                    <Link
+                        className="nav-button f6 f5-l link hover-bg-light-gray dib pa3 ph5-l"
+                        activeClass="active"
+                        to="roadmap"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={1000}
+                    >Roadmap
                     </Link>
                     <Link
                         className="nav-button f6 f5-l link hover-bg-light-gray dib pa3 ph5-l"

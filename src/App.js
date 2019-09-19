@@ -12,6 +12,8 @@ import ProjectsPT from './Components/Projects/ProjectsPT';
 import LanguageSelectorPT from './Components/LanguageSelector/LanguageSelectorPT';
 import AboutPT from './Components/About/AboutPT';
 import ContactPT from './Components/Contact/ContactPT';
+import Roadmap from './Components/Roadmap/RoadmapEN';
+import RoadmapPT from './Components/Roadmap/RoadmapPT';
 
 
 
@@ -56,6 +58,7 @@ class App extends Component {
             <LanguageSelectorPT onPress={this.switchToPortugueseHandler} />
           </div>
           <AboutEN />
+          <Roadmap />
           <ProjectsEN />
           <ContactEN />
         </div>
@@ -70,6 +73,7 @@ class App extends Component {
             <LanguageSelectorPT onPress={this.switchToPortugueseHandler} />
           </div>
           <AboutPT />
+          <RoadmapPT />
           <ProjectsPT />
           <ContactPT />
         </div>

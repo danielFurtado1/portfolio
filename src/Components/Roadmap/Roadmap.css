@@ -1,0 +1,63 @@
+
+
+/* .roadmap-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-items: center;
+    width: 80%;
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(14rem, .4fr));
+    align-content: start;
+    align-items: start;
+} */
+
+/* .tech-wrapper-div {
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+} */
+
+.roadmap-wrapper {
+    width: 80%;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tech-icon {
+    width: 32px;
+    height: 32px;
+    margin: auto;
+}
+
+.tech-icon-wrapper {
+    display: flex;
+    width: 48px;
+    height: 48px;
+    border-radius : 8px;
+}
+
+.tech-title {
+    /* position: realtive; */
+    margin: 8px 0px;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+.progress-icon {
+    align-self: center;
+    width: 16px;
+    height: 16px;
+    padding: 0 5px;
+}
+
+.tech-item-wrapper {
+    display: flex;
+    /* align-content: space-around; */
+    /* justify-items: center; */
+    /* justify-content: center; */
+    padding: 10px;
+}
