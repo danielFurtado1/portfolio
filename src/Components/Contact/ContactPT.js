@@ -8,7 +8,7 @@ const ContactPT = () => {
         <div>
             <footer className="tc-l bg-center cover bg-black" id="contact">
                 <div className="w-100 ph3 pt7 pb7 bg-black-80">
-                    <p className="f3 white-60 pb6 contact-text">Entre em contato!</p>
+                    <p className="f3 white-60 pb5 contact-text">Entre em contato!</p>
                     <a className="link white-60 bg-transparent hover-white inline-flex items-center ma2 tc br2 pa2 email-contact" href="mailto: contact.danielfurtado@gmail.com" title="Email me">
                         <svg className="dib h2 w2 mail-icon" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 18" fillRule="evenodd" clipRule="evenodd" strokeLinejoin="round" strokeMiterlimit="1.414"><path d="M24 21h-24v-18h24v18zm-23-16.477v15.477h22v-15.477l-10.999 10-11.001-10zm21.089-.523h-20.176l10.088 9.171 10.088-9.171z"/></svg>
                         <p className="f6 ml3 pr2 email-address">contact.danielfurtado@gmail.com</p>
