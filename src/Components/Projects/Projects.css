@@ -10,6 +10,9 @@
 .button {
     display: flex;
 	align-items: center;
+	justify-content: center;
+	height: 35px;
+	width: 95px;
 	font-size: 0.75rem;
 	text-decoration: none;
     padding: .5rem 1rem;

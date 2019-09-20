@@ -122,7 +122,7 @@ const ProjectsPT = () => {
                                     do site!
                                 </p>
                                 <div className="buttons">
-                                    <a className="button" href="/" rel="noopener noreferrer" target='_blank'>
+                                    <a className="button" href="https://www.danielbmfurtado.com" rel="noopener noreferrer" target='_blank'>
                                         <div className="white-dot"></div>
                                         <span>Live</span>
                                     </a>

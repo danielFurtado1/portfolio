@@ -93,11 +93,12 @@ class TimelineComponentEN extends Component {
           <TimelineItem
             key="001"
             dateText="Q1 & Q2 - 2019"
-            dateInnerStyle={{ background: '#61b8ff', color: '#000' }}
+            dateInnerStyle={{ background: '#DCF8C6', color: '#4BB543' }}
+            className={'time-line-item'}
             style={{ color: 'rgba(0, 0, 0, 0.6)' }}
             bodyContainerStyle={{
-              background: '#ddd',
-              padding: '20px',
+              background: '#DCF8C6',
+              padding: '0px',
               borderRadius: '8px',
               boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
             }}
@@ -141,11 +142,12 @@ class TimelineComponentEN extends Component {
           <TimelineItem
             key="002"
             dateText="Q3 & Q4 - 2019"
-            dateInnerStyle={{ background: '#61b8ff', color: '#000' }}
+            dateInnerStyle={{ background: '#ddd', color: '#000' }}
+            className={'time-line-item'}
             style={{ color: 'rgba(0, 0, 0, 0.6)' }}
             bodyContainerStyle={{
               background: '#ddd',
-              padding: '20px',
+              padding: '0px',
               borderRadius: '8px',
               boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
             }}
@@ -175,11 +177,12 @@ class TimelineComponentEN extends Component {
           <TimelineItem
             key="003"
             dateText="Q1 & Q2 - 2020"
-            dateInnerStyle={{ background: '#61b8ff', color: '#000' }}
+            dateInnerStyle={{ background: '#ddd', color: '#000' }}
+            className={'time-line-item'}
             style={{ color: 'rgba(0, 0, 0, 0.6)' }}
             bodyContainerStyle={{
               background: '#ddd',
-              padding: '20px',
+              padding: '0px',
               borderRadius: '8px',
               boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
             }}
@@ -209,11 +212,12 @@ class TimelineComponentEN extends Component {
           <TimelineItem
             key="004"
             dateText="Q3 & Q4 - 2020"
-            dateInnerStyle={{ background: '#61b8ff', color: '#000' }}
+            dateInnerStyle={{ background: '#ddd', color: '#000' }}
+            className={'time-line-item'}
             style={{ color: 'rgba(0, 0, 0, 0.6)' }}
             bodyContainerStyle={{
               background: '#ddd',
-              padding: '20px',
+              padding: '0px',
               borderRadius: '8px',
               boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
             }}
@@ -250,11 +254,12 @@ class TimelineComponentEN extends Component {
           <TimelineItem
             key="005"
             dateText="Q1 & Q2 - 2021"
-            dateInnerStyle={{ background: '#61b8ff', color: '#000' }}
+            dateInnerStyle={{ background: '#ddd', color: '#000' }}
+            className={'time-line-item'}
             style={{ color: 'rgba(0, 0, 0, 0.6)' }}
             bodyContainerStyle={{
               background: '#ddd',
-              padding: '20px',
+              padding: '0px',
               borderRadius: '8px',
               boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
             }}

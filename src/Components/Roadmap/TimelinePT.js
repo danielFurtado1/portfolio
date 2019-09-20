@@ -89,15 +89,15 @@ class TimelineComponentPT extends Component {
   render() {
     return (
       <div>
-        <Timeline lineColor={'#ddd'}>
+        <Timeline lineColor={'rgba(0, 0, 0, 0.6)'}>
           <TimelineItem
             key="001"
             dateText="1º Semestre - 2019"
-            dateInnerStyle={{ background: '#61b8ff', color: '#000' }}
-            style={{ color: '#e86971' }}
+            dateInnerStyle={{ background: '#DCF8C6', color: '#4BB543' }}
+            style={{ color: 'rgba(0, 0, 0, 0.6)' }}
             bodyContainerStyle={{
-              background: '#ddd',
-              padding: '20px',
+              background: '#DCF8C6',
+              padding: '0px',
               borderRadius: '8px',
               boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
             }}
@@ -141,11 +141,11 @@ class TimelineComponentPT extends Component {
           <TimelineItem
             key="002"
             dateText="2º Semestre - 2019"
-            dateInnerStyle={{ background: '#61b8ff', color: '#000' }}
-            style={{ color: '#e86971' }}
+            dateInnerStyle={{ background: '#ddd', color: '#000' }}
+            style={{ color: 'rgba(0, 0, 0, 0.6)' }}
             bodyContainerStyle={{
               background: '#ddd',
-              padding: '20px',
+              padding: '0px',
               borderRadius: '8px',
               boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
             }}
@@ -175,11 +175,11 @@ class TimelineComponentPT extends Component {
           <TimelineItem
             key="003"
             dateText="1º Semestre - 2020"
-            dateInnerStyle={{ background: '#61b8ff', color: '#000' }}
-            style={{ color: '#e86971' }}
+            dateInnerStyle={{ background: '#ddd', color: '#000' }}
+            style={{ color: 'rgba(0, 0, 0, 0.6)' }}
             bodyContainerStyle={{
               background: '#ddd',
-              padding: '20px',
+              padding: '0px',
               borderRadius: '8px',
               boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
             }}
@@ -209,11 +209,11 @@ class TimelineComponentPT extends Component {
           <TimelineItem
             key="004"
             dateText="2º Semestre - 2020"
-            dateInnerStyle={{ background: '#61b8ff', color: '#000' }}
-            style={{ color: '#e86971' }}
+            dateInnerStyle={{ background: '#ddd', color: '#000' }}
+            style={{ color: 'rgba(0, 0, 0, 0.6)' }}
             bodyContainerStyle={{
               background: '#ddd',
-              padding: '20px',
+              padding: '0px',
               borderRadius: '8px',
               boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
             }}
@@ -250,11 +250,11 @@ class TimelineComponentPT extends Component {
           <TimelineItem
             key="005"
             dateText="1º Semestre - 2021"
-            dateInnerStyle={{ background: '#61b8ff', color: '#000' }}
-            style={{ color: '#e86971' }}
+            dateInnerStyle={{ background: '#ddd', color: '#000' }}
+            style={{ color: 'rgba(0, 0, 0, 0.6)' }}
             bodyContainerStyle={{
               background: '#ddd',
-              padding: '20px',
+              padding: '0px',
               borderRadius: '8px',
               boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
             }}

@@ -24,6 +24,17 @@
 
 @media screen and (max-width: 393px) {
   .nav-button {
-    padding: .5rem !important;
+    padding: 12px !important;
+    height: 40px;
+  }
+
+  .sticky {
+    height: 42px;
+  }
+}
+
+@media screen and (max-width: 352px) {
+  .nav-button {
+    padding: 8px !important;
   }
 }
