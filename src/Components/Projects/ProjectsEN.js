@@ -14,36 +14,6 @@ const ProjectsEN = () => {
         <div>
             <section className="mw7 center avenir" id="projects">
                 <h2 className="baskerville fw1 f2 ph3 ph0-l black">Projects</h2>
-                <article className="bt bb b--black-10 grow-custom" >
-                    <div className="db pv4 ph3 ph0-l no-underline black">
-                        <div className="flex flex-column flex-row-ns">
-                            <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-                                <img src={thumbMonster} className="db" alt="" />
-                            </div>
-                            <div className="w-100 w-60-ns pl3-ns">
-                                <h1 className="f3 fw1 baskerville mt0 lh-title">Monster Cards</h1>
-                                <p className="f6 f5-l lh-copy">
-                                    App that renders cards using
-                                    a users API combined with a
-                                    hash monster image generator API.
-                                    Created with React. Deployed using
-                                    Github Pages.
-                                </p>
-                                <div className="buttons">
-                                    <a className="button" href="https://danielfurtado1.github.io/monster-cards/" rel="noopener noreferrer" target='_blank'>
-                                        <div className="white-dot"></div>
-                                        <span>Live</span>
-                                    </a>
-                                    <a className="button" href="https://github.com/danielFurtado1/monster-cards/" rel="noopener noreferrer" target='_blank'>
-                                        <div className="icon">
-                                            <img alt="git-icon" className="git-icon" src={gitIcon} /></div>
-                                        <span>Source</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </article>
                 <article className="bb b--black-10 grow-custom">
                     <div className="db pv4 ph3 ph0-l no-underline black">
                         <div className="flex flex-column flex-row-ns">
@@ -82,7 +52,7 @@ const ProjectsEN = () => {
                             <div className="w-100 w-60-ns pl3-ns">
                                 <h1 className="f3 fw1 baskerville mt0 lh-title">Face Recognition App</h1>
                                 <p className="f6 f5-l lh-copy">
-                                    Responsive App deployed on Heroku which detects human faces in the received pictures.
+                                    Detects human faces in the received pictures, deployed with Heroku and highly responsive.
                                     Uses React, Clarifai API for the detection and Tachyons for the design and responsivity. 
                                     It haves a user base, permissions and entry count for each user.
                                     <br />
@@ -104,6 +74,37 @@ const ProjectsEN = () => {
                         </div>
                     </div>
                 </article>
+                <article className="bt bb b--black-10 grow-custom" >
+                    <div className="db pv4 ph3 ph0-l no-underline black">
+                        <div className="flex flex-column flex-row-ns">
+                            <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns">
+                                <img src={thumbMonster} className="db" alt="" />
+                            </div>
+                            <div className="w-100 w-60-ns pl3-ns">
+                                <h1 className="f3 fw1 baskerville mt0 lh-title">Monster Cards</h1>
+                                <p className="f6 f5-l lh-copy">
+                                    App that renders cards using
+                                    a users API combined with a
+                                    hash monster image generator API.
+                                    Created with React. Deployed using
+                                    Github Pages.
+                                </p>
+                                <div className="buttons">
+                                    <a className="button" href="https://danielfurtado1.github.io/monster-cards/" rel="noopener noreferrer" target='_blank'>
+                                        <div className="white-dot"></div>
+                                        <span>Live</span>
+                                    </a>
+                                    <a className="button" href="https://github.com/danielFurtado1/monster-cards/" rel="noopener noreferrer" target='_blank'>
+                                        <div className="icon">
+                                            <img alt="git-icon" className="git-icon" src={gitIcon} /></div>
+                                        <span>Source</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
                 <article className="bb b--black-10 grow-custom">
                     <div className="db pv4 ph3 ph0-l no-underline black">
                         <div className="flex flex-column flex-row-ns">
@@ -116,7 +117,7 @@ const ProjectsEN = () => {
                                     It is the site you're on now! Created with React, AWS (S3 and CloudFront) for deployment, 
                                     HTTPS certification, Tachyons for the CSS and responsivity, and some more interesting things.
                                     <br />
-                                    Try out the mobile responsivity!
+                                    Check out the mobile responsivity!
                                 </p>
                                 <div className="buttons">
                                     <a className="button" href="/" rel="noopener noreferrer" target='_blank'>

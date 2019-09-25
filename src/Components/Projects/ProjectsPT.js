@@ -14,36 +14,6 @@ const ProjectsPT = () => {
         <div>
             <section className="mw7 center avenir" id="projects">
                 <h2 className="baskerville fw1 f2 ph3 ph0-l black">Projetos</h2>
-                <article className="bt bb b--black-10 grow-custom" >
-                    <div className="db pv4 ph3 ph0-l no-underline black">
-                        <div className="flex flex-column flex-row-ns">
-                            <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-                                <img src={thumbMonster} className="db" alt="" />
-                            </div>
-                            <div className="w-100 w-60-ns pl3-ns">
-                                <h1 className="f3 fw1 baskerville mt0 lh-title">Monster Cards</h1>
-                                <p className="f6 f5-l lh-copy">
-                                    App que renderiza cartões utilizando
-                                     uma API de usuários combinada com uma 
-                                     API que gera imagens de monstros com 
-                                     o hash passado. Criado utilizando React.
-                                      Hospedado no Github Pages.
-                                </p>
-                                <div className="buttons">
-                                    <a className="button" href="https://danielfurtado1.github.io/monster-cards/" rel="noopener noreferrer" target='_blank'>
-                                        <div className="white-dot"></div>
-                                        <span>Live</span>
-                                    </a>
-                                    <a className="button" href="https://github.com/danielFurtado1/monster-cards/" rel="noopener noreferrer" target='_blank'>
-                                        <div className="icon">
-                                            <img alt="git-icon" className="git-icon" src={gitIcon} /></div>
-                                        <span>Source</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </article>
                 <article className="bb b--black-10 grow-custom">
                     <div className="db pv4 ph3 ph0-l no-underline black">
                         <div className="flex flex-column flex-row-ns">
@@ -82,7 +52,7 @@ const ProjectsPT = () => {
                             <div className="w-100 w-60-ns pl3-ns">
                                 <h1 className="f3 fw1 baskerville mt0 lh-title">Face Recognition App</h1>
                                 <p className="f6 f5-l lh-copy">
-                                    App responsivo hospedado no Heroku que detecta faces humanas nas fotos recebidas. 
+                                    Detecta faces humanas nas fotos recebidas, hospedado no Heroku e altamente responsivo. 
                                     Utiliza React, Clarifai API para detectar e Tachyons para o design e responsividade.
                                     Possui uma base de cadastros, permissões e contagem de envios
                                     de fotos para cada usuário.
@@ -102,6 +72,36 @@ const ProjectsPT = () => {
                                 </div>
                             </div>
                             
+                        </div>
+                    </div>
+                </article>
+                <article className="bt bb b--black-10 grow-custom" >
+                    <div className="db pv4 ph3 ph0-l no-underline black">
+                        <div className="flex flex-column flex-row-ns">
+                            <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns">
+                                <img src={thumbMonster} className="db" alt="" />
+                            </div>
+                            <div className="w-100 w-60-ns pl3-ns">
+                                <h1 className="f3 fw1 baskerville mt0 lh-title">Monster Cards</h1>
+                                <p className="f6 f5-l lh-copy">
+                                    Renderiza cartões utilizando 
+                                    uma API de usuários combinada com uma 
+                                    API que gera imagens de monstros com 
+                                    o hash passado. Criado utilizando React.
+                                    Hospedado no Github Pages.
+                                </p>
+                                <div className="buttons">
+                                    <a className="button" href="https://danielfurtado1.github.io/monster-cards/" rel="noopener noreferrer" target='_blank'>
+                                        <div className="white-dot"></div>
+                                        <span>Live</span>
+                                    </a>
+                                    <a className="button" href="https://github.com/danielFurtado1/monster-cards/" rel="noopener noreferrer" target='_blank'>
+                                        <div className="icon">
+                                            <img alt="git-icon" className="git-icon" src={gitIcon} /></div>
+                                        <span>Source</span>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </article>
