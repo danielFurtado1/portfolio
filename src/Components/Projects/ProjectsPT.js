@@ -118,8 +118,7 @@ const ProjectsPT = () => {
                                     HTTPS, Tachyons para o CSS e responsividade, 
                                     e mais algumas funções interessantes.
                                     <br />
-                                    Não esqueça de testar a responsividade mobile 
-                                    do site!
+                                    Teste a responsividade mobile!
                                 </p>
                                 <div className="buttons">
                                     <a className="button" href="https://www.danielbmfurtado.com" rel="noopener noreferrer" target='_blank'>

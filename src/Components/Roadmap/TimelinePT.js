@@ -92,7 +92,7 @@ class TimelineComponentPT extends Component {
         <Timeline lineColor={'rgba(0, 0, 0, 0.6)'}>
           <TimelineItem
             key="001"
-            dateText="1º Semestre - 2019"
+            dateText="1º Sem. 2019"
             dateInnerStyle={{ background: '#DCF8C6', color: '#4BB543' }}
             style={{ color: 'rgba(0, 0, 0, 0.6)' }}
             bodyContainerStyle={{
@@ -140,7 +140,7 @@ class TimelineComponentPT extends Component {
           </TimelineItem>
           <TimelineItem
             key="002"
-            dateText="2º Semestre - 2019"
+            dateText="2º Sem. - 2019"
             dateInnerStyle={{ background: '#ddd', color: '#000' }}
             style={{ color: 'rgba(0, 0, 0, 0.6)' }}
             bodyContainerStyle={{
@@ -171,19 +171,6 @@ class TimelineComponentPT extends Component {
               <p className="tech-title">Redux</p>
               <img alt="progress-icon" className="progress-icon" src={inprogressIcon} />
             </div>
-          </TimelineItem>
-          <TimelineItem
-            key="003"
-            dateText="1º Semestre - 2020"
-            dateInnerStyle={{ background: '#ddd', color: '#000' }}
-            style={{ color: 'rgba(0, 0, 0, 0.6)' }}
-            bodyContainerStyle={{
-              background: '#ddd',
-              padding: '0px',
-              borderRadius: '8px',
-              boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
-            }}
-          >
             <div className="tech-item-wrapper">
               <div className="tech-icon-wrapper" style={pwaColor}>
                 <img alt="tech-icon" className="tech-icon" src={pwaIcon} />
@@ -196,19 +183,12 @@ class TimelineComponentPT extends Component {
                 <img alt="tech-icon" className="tech-icon" src={awsIcon} />
               </div>
               <p className="tech-title">Amazon Web Services</p>
-              <img alt="progress-icon" className="progress-icon" src={inprogressIcon} />
-            </div>
-            <div className="tech-item-wrapper">
-              <div className="tech-icon-wrapper" style={dockerColor}>
-                <img alt="tech-icon" className="tech-icon" src={dockerIcon} />
-              </div>
-              <p className="tech-title">Docker</p>
-              <img alt="progress-icon" className="progress-icon" src={inprogressIcon} />
+              <img alt="progress-icon" className="progress-icon" src={checkIcon} />
             </div>
           </TimelineItem>
           <TimelineItem
-            key="004"
-            dateText="2º Semestre - 2020"
+            key="003"
+            dateText="1º Sem. 2020"
             dateInnerStyle={{ background: '#ddd', color: '#000' }}
             style={{ color: 'rgba(0, 0, 0, 0.6)' }}
             bodyContainerStyle={{
@@ -218,6 +198,14 @@ class TimelineComponentPT extends Component {
               boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
             }}
           >
+
+            <div className="tech-item-wrapper">
+              <div className="tech-icon-wrapper" style={dockerColor}>
+                <img alt="tech-icon" className="tech-icon" src={dockerIcon} />
+              </div>
+              <p className="tech-title">Docker</p>
+              <img alt="progress-icon" className="progress-icon" src={inprogressIcon} />
+            </div>
             <div className="tech-item-wrapper">
               <div className="tech-icon-wrapper" style={cicdColor}>
                 <img alt="tech-icon" className="tech-icon" src={cicdIcon} />
@@ -248,8 +236,8 @@ class TimelineComponentPT extends Component {
             </div>
           </TimelineItem>
           <TimelineItem
-            key="005"
-            dateText="1º Semestre - 2021"
+            key="004"
+            dateText="2º Sem. 2020"
             dateInnerStyle={{ background: '#ddd', color: '#000' }}
             style={{ color: 'rgba(0, 0, 0, 0.6)' }}
             bodyContainerStyle={{

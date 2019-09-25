@@ -173,6 +173,20 @@ class TimelineComponentEN extends Component {
               <p className="tech-title">Redux</p>
               <img alt="progress-icon" className="progress-icon" src={inprogressIcon} />
             </div>
+            <div className="tech-item-wrapper">
+              <div className="tech-icon-wrapper" style={pwaColor}>
+                <img alt="tech-icon" className="tech-icon" src={pwaIcon} />
+              </div>
+              <p className="tech-title">Progressive Web Apps</p>
+              <img alt="progress-icon" className="progress-icon" src={inprogressIcon} />
+            </div>
+            <div className="tech-item-wrapper">
+              <div className="tech-icon-wrapper" style={awsColor}>
+                <img alt="tech-icon" className="tech-icon" src={awsIcon} />
+              </div>
+              <p className="tech-title">Amazon Web Services</p>
+              <img alt="progress-icon" className="progress-icon" src={checkIcon} />
+            </div>
           </TimelineItem>
           <TimelineItem
             key="003"
@@ -188,40 +202,12 @@ class TimelineComponentEN extends Component {
             }}
           >
             <div className="tech-item-wrapper">
-              <div className="tech-icon-wrapper" style={pwaColor}>
-                <img alt="tech-icon" className="tech-icon" src={pwaIcon} />
-              </div>
-              <p className="tech-title">Progressive Web Apps</p>
-              <img alt="progress-icon" className="progress-icon" src={inprogressIcon} />
-            </div>
-            <div className="tech-item-wrapper">
-              <div className="tech-icon-wrapper" style={awsColor}>
-                <img alt="tech-icon" className="tech-icon" src={awsIcon} />
-              </div>
-              <p className="tech-title">Amazon Web Services</p>
-              <img alt="progress-icon" className="progress-icon" src={inprogressIcon} />
-            </div>
-            <div className="tech-item-wrapper">
               <div className="tech-icon-wrapper" style={dockerColor}>
                 <img alt="tech-icon" className="tech-icon" src={dockerIcon} />
               </div>
               <p className="tech-title">Docker</p>
               <img alt="progress-icon" className="progress-icon" src={inprogressIcon} />
             </div>
-          </TimelineItem>
-          <TimelineItem
-            key="004"
-            dateText="Q3 & Q4 - 2020"
-            dateInnerStyle={{ background: '#ddd', color: '#000' }}
-            className={'time-line-item'}
-            style={{ color: 'rgba(0, 0, 0, 0.6)' }}
-            bodyContainerStyle={{
-              background: '#ddd',
-              padding: '0px',
-              borderRadius: '8px',
-              boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
-            }}
-          >
             <div className="tech-item-wrapper">
               <div className="tech-icon-wrapper" style={cicdColor}>
                 <img alt="tech-icon" className="tech-icon" src={cicdIcon} />
@@ -252,8 +238,8 @@ class TimelineComponentEN extends Component {
             </div>
           </TimelineItem>
           <TimelineItem
-            key="005"
-            dateText="Q1 & Q2 - 2021"
+            key="004"
+            dateText="Q3 & Q4 - 2020"
             dateInnerStyle={{ background: '#ddd', color: '#000' }}
             className={'time-line-item'}
             style={{ color: 'rgba(0, 0, 0, 0.6)' }}

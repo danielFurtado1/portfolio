@@ -116,7 +116,7 @@ const ProjectsEN = () => {
                                     It is the site you're on now! Created with React, AWS (S3 and CloudFront) for deployment, 
                                     HTTPS certification, Tachyons for the CSS and responsivity, and some more interesting things.
                                     <br />
-                                    Don't forget to try the mobile responsivity!
+                                    Try out the mobile responsivity!
                                 </p>
                                 <div className="buttons">
                                     <a className="button" href="/" rel="noopener noreferrer" target='_blank'>
