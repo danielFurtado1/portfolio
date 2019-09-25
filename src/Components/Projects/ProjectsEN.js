@@ -52,7 +52,7 @@ const ProjectsEN = () => {
                             <div className="w-100 w-60-ns pl3-ns">
                                 <h1 className="f3 fw1 baskerville mt0 lh-title">Face Recognition App</h1>
                                 <p className="f6 f5-l lh-copy">
-                                    Detects human faces in the received pictures, deployed with Heroku and highly responsive.
+                                    Detects human faces in the received pictures, deployed with Heroku and is highly responsive.
                                     Uses React, Clarifai API for the detection and Tachyons for the design and responsivity. 
                                     It haves a user base, permissions and entry count for each user.
                                     <br />
@@ -83,7 +83,7 @@ const ProjectsEN = () => {
                             <div className="w-100 w-60-ns pl3-ns">
                                 <h1 className="f3 fw1 baskerville mt0 lh-title">Monster Cards</h1>
                                 <p className="f6 f5-l lh-copy">
-                                    App that renders cards using
+                                    Renders cards using
                                     a users API combined with a
                                     hash monster image generator API.
                                     Created with React. Deployed using
