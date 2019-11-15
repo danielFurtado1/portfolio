@@ -5,7 +5,7 @@ import './Navigation.css'
 const NavigationEN = () => {
     return (
         <div>
-            <header className="bg-white black-80 tc pv4 avenir">
+            <header className="bg-white black-80 tc pv4">
                 <nav className="sticky bt bb tc navbar">
                     <Link
                         className="nav-button f6 f5-l link hover-bg-light-gray dib pa3 ph5-l"
@@ -59,7 +59,7 @@ const NavigationEN = () => {
                     </Link>
                 </nav>
             </header>
-                <h1 className="black-80 mb0 baskerville i fw1 f1 nav-title">Here you can see my projects!</h1>
+                <h1 className="black-80 mb0 i fw1 f1 nav-title">Here you can see my projects!</h1>
                 <h2 className="black-80 mb4 f6 fw4 ttu tracked">Web Developer Daniel Furtado</h2>
         </div>
     )

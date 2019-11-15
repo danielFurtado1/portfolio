@@ -9,15 +9,15 @@ import mapIcon from '../../images/icons/pin-icon.svg'
 const AboutEN = () => {
     return (
         <div className="pa5-ns" id="about">
-        <h1 className="baskerville fw1 f2 ph3 ph0-l black about-tittle">About</h1>
+        <h1 className="  fw1 f2 ph3 ph0-l black about-tittle">About</h1>
         <div className="about-wrapper">
-            <div className="pa3 about-text baskerville f6 f5-l lh-copy">
+            <div className="pa3 about-text   f6 f5-l lh-copy">
                 <p>
                     Welcome to my page, fantastic to see you here!
                 </p>
                 <p>
                     My name is Daniel, I am a Front-end Web Developer specializing in the awesome technology of ReactJS. 
-                    It is being an awesome experience to develop the most diverse aplications, some of which you will see below.
+                    It has been an awesome experience to develop the most diverse aplications, some of which you will see below.
                 </p>
                 <p>
                     In case you wish to know even more about my work, please feel free to contact me and I will reach you as soon as possible!

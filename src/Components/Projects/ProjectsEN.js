@@ -12,8 +12,8 @@ import thumbPortfolio from '../../images/thumbnails/portfolio-thumbnail.png'
 const ProjectsEN = () => {
     return (
         <div>
-            <section className="mw7 center avenir" id="projects">
-                <h2 className="baskerville fw1 f2 ph3 ph0-l black">Projects</h2>
+            <section className="mw7 center  " id="projects">
+                <h2 className="fw1 f2 ph3 ph0-l black">Projects</h2>
                 <article className="bb b--black-10 grow-custom">
                     <div className="db pv4 ph3 ph0-l no-underline black">
                         <div className="flex flex-column flex-row-ns">
@@ -21,7 +21,7 @@ const ProjectsEN = () => {
                                 <img src={thumbRobo} className="db" alt="" />
                             </div>
                             <div className="w-100 w-60-ns pl3-ns">
-                                <h1 className="f3 fw1 baskerville mt0 lh-title">Robo Cards</h1>
+                                <h1 className="f3 fw1 mt0 lh-title">Robo Cards</h1>
                                 <p className="f6 f5-l lh-copy">
                                     Responsive App that obtain a users data 
                                     and convert them into robot cards. It uses 
@@ -50,7 +50,7 @@ const ProjectsEN = () => {
                                 <img src={thumbFaceRecog} className="db" alt="" />
                             </div>
                             <div className="w-100 w-60-ns pl3-ns">
-                                <h1 className="f3 fw1 baskerville mt0 lh-title">Face Recognition App</h1>
+                                <h1 className="f3 fw1   mt0 lh-title">Face Recognition App</h1>
                                 <p className="f6 f5-l lh-copy">
                                     Detects human faces in the received pictures, deployed with Heroku and is highly responsive.
                                     Uses React, Clarifai API for the detection and Tachyons for the design and responsivity. 
@@ -81,7 +81,7 @@ const ProjectsEN = () => {
                                 <img src={thumbMonster} className="db" alt="" />
                             </div>
                             <div className="w-100 w-60-ns pl3-ns">
-                                <h1 className="f3 fw1 baskerville mt0 lh-title">Monster Cards</h1>
+                                <h1 className="f3 fw1 mt0 lh-title">Monster Cards</h1>
                                 <p className="f6 f5-l lh-copy">
                                     Renders cards using
                                     a users API combined with a
@@ -112,7 +112,7 @@ const ProjectsEN = () => {
                                 <img src={thumbPortfolio} className="db" alt="" />
                             </div>
                             <div className="w-100 w-60-ns pl3-ns">
-                                <h1 className="f3 fw1 baskerville mt0 lh-title">Personal Portfolio</h1>
+                                <h1 className="f3 fw1 mt0 lh-title">Personal Portfolio</h1>
                                 <p className="f6 f5-l lh-copy">
                                     It is the site you're on now! Created with React, AWS (S3 and CloudFront) for deployment, 
                                     HTTPS certification, Tachyons for the CSS and responsivity, and some more interesting things.

@@ -9,9 +9,9 @@ import mapIcon from '../../images/icons/pin-icon.svg'
 const AboutPT = () => {
     return (
         <div className="pa5-ns" id="about">
-        <h1 className="baskerville fw1 f2 ph3 ph0-l black about-tittle">Sobre</h1>
+        <h1 className="fw1 f2 ph3 ph0-l black about-tittle">Sobre</h1>
         <div className="about-wrapper">
-            <div className="pa3 about-text baskerville f6 f5-l lh-copy">
+            <div className="pa3 about-text f6 f5-l lh-copy">
                 <p>
                     Seja bem-vindo à minha página, muito bom vê-lo por aqui!
                 </p>
