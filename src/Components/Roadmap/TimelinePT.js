@@ -90,6 +90,7 @@ class TimelineComponentPT extends Component {
     return (
       <div>
         <Timeline lineColor={'rgba(0, 0, 0, 0.6)'}>
+
           <TimelineItem
             key="001"
             dateText="1º Sem. 2019"
@@ -138,13 +139,14 @@ class TimelineComponentPT extends Component {
               <img alt="progress-icon" className="progress-icon" src={checkIcon} />
             </div>
           </TimelineItem>
+
           <TimelineItem
             key="002"
             dateText="2º Sem. - 2019"
-            dateInnerStyle={{ background: '#ddd', color: '#000' }}
+            dateInnerStyle={{ background: '#DCF8C6', color: '#4BB543' }}
             style={{ color: 'rgba(0, 0, 0, 0.6)' }}
             bodyContainerStyle={{
-              background: '#ddd',
+              background: '#DCF8C6',
               padding: '0px',
               borderRadius: '8px',
               boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
@@ -169,14 +171,14 @@ class TimelineComponentPT extends Component {
                 <img alt="tech-icon" className="tech-icon" src={reduxIcon} />
               </div>
               <p className="tech-title">Redux</p>
-              <img alt="progress-icon" className="progress-icon" src={inprogressIcon} />
+              <img alt="progress-icon" className="progress-icon" src={checkIcon} />
             </div>
             <div className="tech-item-wrapper">
               <div className="tech-icon-wrapper" style={pwaColor}>
                 <img alt="tech-icon" className="tech-icon" src={pwaIcon} />
               </div>
               <p className="tech-title">Progressive Web Apps</p>
-              <img alt="progress-icon" className="progress-icon" src={inprogressIcon} />
+              <img alt="progress-icon" className="progress-icon" src={checkIcon} />
             </div>
             <div className="tech-item-wrapper">
               <div className="tech-icon-wrapper" style={awsColor}>
@@ -186,6 +188,7 @@ class TimelineComponentPT extends Component {
               <img alt="progress-icon" className="progress-icon" src={checkIcon} />
             </div>
           </TimelineItem>
+
           <TimelineItem
             key="003"
             dateText="1º Sem. 2020"
@@ -235,6 +238,7 @@ class TimelineComponentPT extends Component {
               <img alt="progress-icon" className="progress-icon" src={inprogressIcon} />
             </div>
           </TimelineItem>
+
           <TimelineItem
             key="004"
             dateText="2º Sem. 2020"
@@ -251,6 +255,7 @@ class TimelineComponentPT extends Component {
               <p className="tech-title">Mais em breve...</p>
             </div>
           </TimelineItem>
+          
         </Timeline>
       </div>
     )
