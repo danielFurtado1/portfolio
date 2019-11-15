@@ -2,11 +2,11 @@ import React from 'react'
 
 import './Projects.css'
 
-import gitIcon from '../../images/icons/roadmap-icons/github.svg'
-import thumbMonster from '../../images/thumbnails/monster-cards-thumbnail.png'
-import thumbRobo from '../../images/thumbnails/robo-cards-thumbnail.png'
-import thumbFaceRecog from '../../images/thumbnails/face-recognition-thumbnail.png'
-import thumbPortfolio from '../../images/thumbnails/portfolio-thumbnail.png'
+import gitIcon from '../../assets/icons/roadmap-icons/github.svg'
+import thumbMonster from '../../assets/thumbnails/monster-cards-thumbnail.png'
+import thumbRobo from '../../assets/thumbnails/robo-cards-thumbnail.png'
+import thumbFaceRecog from '../../assets/thumbnails/face-recognition-thumbnail.png'
+import thumbPortfolio from '../../assets/thumbnails/portfolio-thumbnail.png'
 
 
 const ProjectsEN = () => {

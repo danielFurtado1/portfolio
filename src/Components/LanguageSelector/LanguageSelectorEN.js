@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './LanguageSelector.css'
 
-import iconEN from '../../images/icons/usa-english.png'
+import iconEN from '../../assets/icons/usa-english.png'
 
 
 class LanguageSelectorEN extends Component {

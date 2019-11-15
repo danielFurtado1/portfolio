@@ -1,17 +1,17 @@
 import React from 'react';
 import './About.css'
 
-import gmailIcon from '../../images/icons/gmail-icon.svg'
-import chatBoxIcon from '../../images/icons/chat-box-icon.svg'
-import mapIcon from '../../images/icons/pin-icon.svg'
+import gmailIcon from '../../assets/icons/gmail-icon.svg'
+import chatBoxIcon from '../../assets/icons/chat-box-icon.svg'
+import mapIcon from '../../assets/icons/pin-icon.svg'
 
 
 const AboutEN = () => {
     return (
         <div className="pa5-ns" id="about">
-        <h1 className="  fw1 f2 ph3 ph0-l black about-tittle">About</h1>
+        <h1 className="fw1 f2 ph3 ph0-l black about-tittle">About</h1>
         <div className="about-wrapper">
-            <div className="pa3 about-text   f6 f5-l lh-copy">
+            <div className="pa3 about-text f6 f5-l lh-copy">
                 <p>
                     Welcome to my page, fantastic to see you here!
                 </p>

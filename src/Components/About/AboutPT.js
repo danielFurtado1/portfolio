@@ -1,9 +1,9 @@
 import React from 'react';
 import './About.css'
 
-import gmailIcon from '../../images/icons/gmail-icon.svg'
-import chatBoxIcon from '../../images/icons/chat-box-icon.svg'
-import mapIcon from '../../images/icons/pin-icon.svg'
+import gmailIcon from '../../assets/icons/gmail-icon.svg'
+import chatBoxIcon from '../../assets/icons/chat-box-icon.svg'
+import mapIcon from '../../assets/icons/pin-icon.svg'
 
 
 const AboutPT = () => {
