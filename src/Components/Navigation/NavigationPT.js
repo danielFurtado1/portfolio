@@ -59,7 +59,7 @@ const NavigationPT = () => {
                     </Link>
                 </nav>
             </header>
-                <h1 className="black-80 mb0 i fw1 f1 nav-title">Veja meus projetos!</h1>
+                <h1 className="black-80 mb0 i fw4 f1 nav-title">Veja meus projetos!</h1>
                 <h2 className="black-80 mb4 f6 fw4 ttu tracked">Web Developer Daniel Furtado</h2>
         </div>
     )
